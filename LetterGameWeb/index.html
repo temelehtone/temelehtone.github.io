@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letter Game</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="image">
+        <img src="images/start_menu.png" id="startMenu">
+        <img src="images/space.png" id="background">
+        <img src="images/apple.png" id="apple">
+    </div>
+    <div id="gameBackground">
+        <canvas></canvas>
+    </div>
+
+    <div class="empty-area">
+        <h1>Later here can be added something like advertisement</h1>
+    </div>
+
+    <div class="keyboard">
+        <div class="keyboard-grid">
+
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>0</button>
+
+
+            <button data-button>Q</button>
+            <button data-button>W</button>
+            <button data-button>E</button>
+            <button data-button>R</button>
+            <button data-button>T</button>
+            <button data-button>Y</button>
+            <button data-button>U</button>
+            <button data-button>I</button>
+            <button data-button>O</button>
+            <button data-button>P</button>
+
+            <button>CAPS</button>
+            <button data-button>A</button>
+            <button data-button>S</button>
+            <button data-button>D</button>
+            <button data-button>F</button>
+            <button data-button>G</button>
+            <button data-button>H</button>
+            <button data-button>J</button>
+            <button data-button>K</button>
+            <button data-button>L</button>
+            
+
+
+            <button class="shift">SHIFT</button>
+            <button data-button>Z</button>
+            <button data-button>X</button>
+            <button data-button>C</button>
+            <button data-button>V</button>
+            <button data-button>B</button>
+            <button data-button>N</button>
+            <button data-button>M</button>
+            <button>,</button>
+            <button>.</button>
+
+            <button></button>
+            <button></button>
+            <button></button>
+            <button class="space" data-button>SPACE</button>
+            <button></button>
+            <button></button>
+
+        </div>
+    </div>
+
+
+
+    <script src="game.js" defer></script>
+</body>
+
+</html>

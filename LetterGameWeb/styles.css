@@ -1,0 +1,64 @@
+*,*::before, *::after{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+
+.image{
+    display: none;
+}
+
+.keyboard{
+    width: 50vw;
+    height: 40vh;
+    position: absolute;
+    display: flex;
+    top: 60%;
+    left: 50%;
+    align-content: center;
+    justify-content: space-around;
+    background: gray;
+}
+
+.keyboard-grid{
+    display: grid;
+    align-content: center;
+    width: 90%;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(5, 15%);
+    
+
+}
+
+button{
+    border: 3px solid black;
+    outline: none;
+    
+}
+.space{
+    grid-column: span 5;
+
+}
+
+.empty-area{
+    text-align: center;
+    background: linear-gradient(to bottom right, #5b7fff, #33ccfc);
+    position: absolute;
+    left: 50%;
+    width: 50vw;
+    height: 60vh;
+}
+
+
+
+
+
+
